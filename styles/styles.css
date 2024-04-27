@@ -8,3 +8,24 @@ div{
     height: 500px;
     background-color: bisque;
 }
+
+#meuDIV_ID {
+    background-color: brown;
+    height: 100px;
+}
+
+.meuDIV_Classe {
+    height: 70px;
+}
+
+.meuDIV_Classe>.meuDIV_Classe_v2 {
+    width: 200px;
+}
+
+p.meuDIV_Classe>p {
+    color: white;
+}
+
+/* Para forçar uma estilização, priorizar aquela formatação, eu utilizo o "!Import". */
+/* Classes sao grupos de elementos da mesma família. */
+/* Padding é o espaço de dentro do elemento e Margin é o espaço de fora. */
